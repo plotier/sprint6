@@ -1,10 +1,18 @@
 import Escena from './components/escena/Escena';
 import './App.css';
+import { textoHistoria } from './textoHistoria';
+
+
+
 
 function App() {
   return (
-<Escena />
-  );
+<div>
+
+  <ul><Escena historia ={textoHistoria}/></ul>
+  
+</div>
+  );    
 }
 
 export default App;
