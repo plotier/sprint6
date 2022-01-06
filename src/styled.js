@@ -8,13 +8,16 @@ display:flex;
 justify-content:center;
 margin:10px; 
 padding:10px;  
-background-color:${({ isSelected }) => isSelected ? "red" : "blue"};
+background-color:${({ isSelected }) => isSelected ? "lightblue" : ""};
+opacity:${({ isSelected }) => isSelected ? "0.8" : "0.7"};
 `;
 export const BackgroundMain = styled.div`
 background-image: url("${({back})=>back}");
-height:40rem;
+height:100vh;
+width:100%;
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100% 100%;
+padding:10px
 `;
 
 export const Boton = styled.button`
@@ -23,6 +26,7 @@ height:50px;
 `;
 
 export const BotonCondicion = styled.button`
+margin-top:20px;
 width:150px;
 height:50px;
 border-radius:40px;

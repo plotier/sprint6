@@ -1,14 +1,18 @@
 .App {
   text-align: center;
 }
-.welcome{
-display: flex;
-flex-direction: column;
-align-items: center;
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-ul{
+
+ul {
   padding: 0px;
+  margin: 0px;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -20,7 +24,7 @@ ul{
   }
 }
 
-.backTest{
+.backTest {
   background: red;
 }
 
@@ -43,6 +47,7 @@ ul{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
