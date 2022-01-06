@@ -14,7 +14,7 @@ opacity:${({ isSelected }) => isSelected ? "0.8" : "0.7"};
 export const BackgroundMain = styled.div`
 background-image: url("${({back})=>back}");
 height:100vh;
-width:100%;
+
 background-repeat: no-repeat;
 background-size: 100% 100%;
 padding:10px

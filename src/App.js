@@ -3,7 +3,7 @@ import './App.css';
 import { textoHistoria } from './textoHistoria';
 import { useState } from 'react';
 import { BotonCondicion } from './styled'
-
+//
 function App() {
   const [condicion, setCondicion] = useState(true);
   return (
@@ -29,5 +29,5 @@ function App() {
 
   );
 }
-
+//i think i could export befor the "App" function, too
 export default App;
